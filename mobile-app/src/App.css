@@ -1,0 +1,41 @@
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 20px;
+  width: 10%;
+}
+
+.image-container {
+  position: relative;
+  width: fit-content;
+}
+
+.mobile-image {
+  width: 100%;
+}
+
+.pro-image {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 80%;
+}
+
+.pro-image-top {
+  position: absolute;
+  top: 0%;
+  left: -20%;
+  width: 80%;
+}
+
+.block {
+  width: 100%;
+}
